@@ -1,0 +1,367 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Source Sans 3',sans-serif;
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    background-position:0px -28px;
+}
+
+/*///////////////////////////////////////////// Header section starts ///////////////////////////////////////////*/
+#Header-Section{
+    color: white;
+    margin-top: -7px;
+    display: inline-block;
+}
+
+#Header-Section h1{
+    font-size: 18px;
+    margin: 10px 0px 0px 15px;
+    /* display: inline-block; */
+    width: 35%;
+}
+
+#Header-Section h1 span{
+    font-weight: 100;
+}
+
+#Header-Section ul li{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight:400;
+}
+
+ul{
+    margin: 10px 0px 0px 15px;
+    margin-left: 1060px;
+    margin-top: -20px;
+}
+
+.signup{
+    border: 2px solid #d2cdca;
+    border-radius: 6px;
+    padding: 2px 10px;
+    /* font-weight: 400; */
+}
+
+.signup:hover{
+    background-color: rgba(245, 245, 245, 0.109);
+    border: 2px solid #d2cdca;
+}
+
+/*///////////////////////////////////////////// Banner section starts ///////////////////////////////////////////*/
+
+#Body-Section{
+    text-align: center;
+    margin: 100px;
+    color: whitesmoke;
+}
+
+#Body-Section h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.para-banner {
+    font-size: 22px;
+    margin-top: 0px;
+    font-weight: 100;
+}
+
+.buttons{
+    margin-top: 10px;    
+}
+.btn-1 {
+    background-color: white;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    color: #5c5652;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 63px;
+    margin-right: 20px;
+}
+
+.btn-2 {
+    border: 2px solid #d2cdca;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 54px;
+}
+
+.btn-2:hover{
+    background-color: rgba(245, 245, 245, 0.109);
+    border: 2px solid #d2cdca;
+}
+
+/* ////////////////////////////////////////////Description Section starts///////////////////////////////////////////// */
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    width: 1038px;
+    margin: 0 auto;
+    color: #646464;
+}
+
+.card h1 {
+    font-size: 36px;
+    padding: 60px 0px 16px;
+}
+
+.p-des {
+    border-top: 2px solid #e5e5e5;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 20px 0px 20px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+img.des {
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+
+}
+
+/* //////////////////////////////////////Icon Section/////////////////////////////////////////////////// */
+
+#Icon-Section {
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    width: 1038px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 50px 0px;
+    box-shadow: 0px 2px 0px 0px #e5e5e5;
+}
+
+#Icon-Section div {
+    display: inline-block;
+}
+
+.icon1{
+    color: #646464;
+    padding: 22px;
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.icon2 {
+    color: #646464;
+    padding: 20px 20px 23px 20px;
+    /* border-bottom: 2px solid #e5e5e5; */
+}
+
+.icon3 {
+    color: #646464;
+    padding: 20px;
+    /* border-top: 2px solid #e5e5e5; */
+}
+
+.icon4 {
+    color: #646464;
+    padding: 21px;
+    border-left: 2px solid #e5e5e5;
+    border-top: 2px solid #e5e5e5;
+}
+
+.fa.fa-bolt {
+    color: white;
+    background-color:#e89980;
+    border-radius: 100%;
+    font-size: 45px;
+    width: 36px;
+    padding: 27px 32px;
+}
+
+.fa.fa-area-chart {
+    color: white;
+    background-color: #7fcdb8;
+    border-radius: 100%;
+    font-size: 45px;
+    display: inline-table;
+    width: 36px;
+    padding: 28px 27px;
+}
+
+.fa.fa-cloud {
+    color: white;
+    background-color: #90b0ba;
+    border-radius: 100%;
+    font-size: 45px;
+    display: inline-table;
+    width: 36px;
+    padding: 28px 27px;
+}
+
+.fa.fa-lock {
+    color: white;
+    background-color: #e5cb95;
+    border-radius: 100%;
+    font-size: 45px;
+    width: 36px;
+    padding: 27px 32px;
+}
+
+/* ////////////////////////////////////////Image Section starts////////////////////////////////////////////////// */
+
+#Img-Section{
+    margin-top:20px ;
+    text-align: center;
+    color: #737573;
+}
+
+.row {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    width: 1038px;
+    height: 480px;
+}
+
+p.p-des-2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.card-1 {
+    border-radius: 0px 0px 8px 8px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 40px;
+    box-shadow: 0px 2px 0px 0px #e5e5e5;
+
+}
+
+.card-2 {
+    border-radius: 0px 0px 8px 8px;
+    background-color: white;
+    display: inline-block;
+    box-shadow: 0px 2px 0px 0px #e5e5e5;
+}
+
+.imgsec{
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+}
+
+.btn-2 {
+    border: 2px solid #d2cdca;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    /* margin-top: 81px; */
+    padding: 10px 30px;
+}
+
+/* //////////////////////////////// Footer Section starts//////////////////////////////////////////// */
+
+#Footer-Section{
+    margin-top: 50px;
+}
+.footer1 {
+    background-color: #e89980;
+    color: #f8e5df;
+    padding: 60px;
+    text-align: center;
+}
+
+.footerh1 {
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.footer1 p{
+    font-size: 18px;
+}
+
+input{
+    height: 50px;
+    color: white;
+    background-color: #eba893;
+    border: none;
+    border-radius: 6px;
+    width: 250px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+input::placeholder{
+    color: white;
+    font-size: 16px;
+}
+
+.btn-3 {
+    color: #e89980;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-weight: 600;
+}
+
+.footer2{
+    background-color: #f0f0f0;
+    padding-top: 50px;
+}
+
+.icons-wrap {
+    color: #c6c6c6;
+}
+
+i.fa.fa-twitter {
+    font-size: 35px;
+    padding: 10px;
+}
+
+i.fa.fa-facebook {
+    font-size: 35px;
+    padding: 10px;
+}
+
+i.fa.fa-instagram {
+    font-size: 35px;
+    padding: 10px;
+}
+
+i.fa.fa-github{
+    font-size: 35px;
+    padding: 10px;
+}
+i.fa.fa-dribbble {
+    font-size: 35px;
+    padding: 10px;
+}
+
+i.fa.fa-google-plus-official {
+    font-size: 35px;
+    padding: 10px;
+}
+
+.p-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.p1{
+    border-right: 1px solid #c6c6c6;
+    padding: 0px 20px;
+    font-size: 16px;
+}
+
+.p2 {
+    padding: 0px 20px ;
+    font-size: 16px;
+}
+
+.link{
+    text-decoration: underline 2px dotted #c6c6c6;
+}
+
